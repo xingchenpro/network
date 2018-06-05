@@ -2,7 +2,8 @@
 var websocket = null;
 //注意单词的拼写
 if ('WebSocket' in window) {
-    websocket = new WebSocket("ws://localhost:8080/websocket");
+    //部署到服务器注意路径
+    websocket = new WebSocket("ws://123.56.219.53:80/MyCourse/websocket");
 }
 else {
     alert("当前浏览器不支持websocket")

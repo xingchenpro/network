@@ -139,6 +139,7 @@
 <script type="text/javascript">
     //设置js的全局变量，js的全局变量在整个生命周期中存在
     l_name = ${userId};
+
 </script>
 <script type="text/javascript" src="<%=path%>/static/js/chat.js"></script>
 </body>
