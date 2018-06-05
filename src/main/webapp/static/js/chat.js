@@ -73,8 +73,8 @@ function setMSGInHtml(toHtml) {
          num = 0;
     else
         num=1
-    //第一个message是JSON对象，第二个是JSON里面的message，不然接收不到
-    chat_ul.innerHTML += '<li><img src="../../static/img/img_26.jpg"><span>' + message.message.content + '</span>';
+
+    chat_ul.innerHTML += '<li><img src="http://123.56.219.53/MyCourse/static/img/img_26.jpg"><span>' + message.message.content + '</span>';
     now++;
     if (num == 0) {
         chat_span[now].className = 'spanright';
