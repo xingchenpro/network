@@ -35,7 +35,7 @@ public class ChatController {
         ModelAndView mv = new ModelAndView();
         if(userId.equals("123")&&userPws.equals("123")||userId.equals("12")&&userPws.equals("12")||userId.equals("1")&&userPws.equals("1")){
             httpSession.setAttribute("userId",userId);
-            httpSession.setAttribute("login_status",true);
+            httpSession.setAttribute("error","true");
             mv.setViewName("chat");
             return mv;
         }

@@ -1,9 +1,9 @@
-
 var websocket = null;
-//注意单词的拼写
+
 if ('WebSocket' in window) {
     //部署到服务器注意路径
-    websocket = new WebSocket("ws://123.56.219.53:80/MyCourse/websocket");
+    //ws://123.56.219.53:80/MyCourse/websocket
+    websocket = new WebSocket("ws://localhost:8080/websocket");
 }
 else {
     alert("当前浏览器不支持websocket")
@@ -58,7 +58,7 @@ function closeWebSocket() {
 
 //需要定义成全局才有效
 var now = -1;//左右浮动
-var num ;//判断左右
+var num;//判断左右
 function setMSGInHtml(toHtml) {
     var send_btn = document.getElementById('send_btn');
     var send_txt = document.getElementById('send_txt');
@@ -68,13 +68,13 @@ function setMSGInHtml(toHtml) {
     //JSON字符串转化为对象
     var message = JSON.parse(toHtml);
     //alert(message.message.from)
-    if(l_name==message.message.from)
-        //若果是自己则在右边
-         num = 0;
+    if (l_name == message.message.from)
+    //若果是自己则在右边
+        num = 0;
     else
-        num=1
-
-    chat_ul.innerHTML += '<li><img src="http://123.56.219.53/MyCourse/static/img/img_26.jpg"><span>' + message.message.content + '</span>';
+        num = 1
+//http://123.56.219.53/MyCourse/static/img/img_26.jpg
+    chat_ul.innerHTML += '<li><img src="../../static/img/img_26.jpg"><span>' + message.message.content + '</span>';
     now++;
     if (num == 0) {
         chat_span[now].className = 'spanright';
@@ -84,10 +84,7 @@ function setMSGInHtml(toHtml) {
     else {
         chat_span[now].className = 'spanleft';
         chat_img[now].className = 'imgleft';
-        // }
 
-        // 内容过多时,将滚动条放置到最底端
-        /*contentcontent.scrollTop = content.scrollHeight;*/
     }
 
     send_txt.value = '';

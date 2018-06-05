@@ -137,7 +137,7 @@
     </div>
 </div>
 <script type="text/javascript">
-    //设置js的全局变量，js的全局变量在整个生命周期中存在
+    //设置js的全局变量，js的全局变量在整个生命周期中存在,保存登录的用户
     l_name = ${userId};
 
 </script>
