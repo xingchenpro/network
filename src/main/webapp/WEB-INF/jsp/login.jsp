@@ -28,6 +28,10 @@
         document.getElementById("submit").value = "用户名或密码错误";
         document.getElementById("submit").style.background = 'red';
     }
+    if("${errorLogin}"=="errorLogin"){
+        alert("请您先登录才能聊天")
+    }
+
 </script>
 </body>
 </html>

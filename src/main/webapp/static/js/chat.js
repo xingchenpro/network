@@ -11,12 +11,12 @@ else {
 
 websocket.onerror = function () {
     //setMSGInHtml("连接时发生错误");
-    alert("连接发生错误")
+    alert("网络不稳定")
 };
 
 websocket.onopen = function () {
     //setMSGInHtml("连接成功");
-    alert("连接成功")
+    alert("欢迎你 "+l_name+"!")
 };
 //接收到消息的回调方法
 websocket.onmessage = function (event) {
@@ -43,7 +43,7 @@ function send() {
 
 websocket.onclose = function () {
     // setMSGInHtml("连接已经关闭")
-    alert("连接已经关闭")
+    alert("已退出")
 }
 
 //连接关闭的回调方法

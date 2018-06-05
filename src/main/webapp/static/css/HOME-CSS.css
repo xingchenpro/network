@@ -1,0 +1,254 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.wrap{
+    width:100%;
+}
+.wrap1_2{
+    width:100%;
+    height:520px;
+    background: -webkit-linear-gradient(top, rgba(171,211,238,1) 0%,rgba(235,241,246,1) 100%);
+}
+.wrap1{
+    width:1535px;
+    height:70px;
+    background-color:#333;
+}
+.wrap2{
+    width:900px;
+    margin:0 auto;
+    font-size: 12px;
+    font-family:"微软雅黑";
+    border-radius:5px;
+}
+.wrap3{
+    width:100%;
+    height:580px;
+    background-color:white;
+}
+.wrap4{
+    margin-top:50px;
+    width:100%;
+    height:580px;
+    background-color:#f8fafc;
+}
+.main1{
+    width:900px;
+    height:580px;
+    margin:0 auto;
+}
+.main2{
+    border:1px solid #f8fafc;
+    width:900px;
+    height:580px;
+    margin:0 auto;
+}
+.top_left{
+    float:left;
+    height:70px;
+    width:330px;
+    /*border:1px solid red;*/
+}
+.nav{
+    width:900px;
+    height:70px;
+    float:left;
+    /*border:1px solid red;*/
+}
+.nav_left{
+    float:left;
+}
+.nav_left li{
+    height:70px;
+    width:110px;
+    float:left;
+    list-style-type: none;
+    text-align:center;
+    line-height:70px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.nav_left a:link,.nav_left a:visited{
+    text-decoration:none;
+    color: white;
+}
+.nav_left a:hover,.nav_left a:active{
+    text-decoration:none;
+    color: yellowgreen;
+}
+.nav_right{
+    width:200px;
+    float:left;
+}
+.nav_right input[type="text"]{
+    height:20px;
+    margin-top:27px;
+    float:left;
+    width:150px;
+    background:url("../web/images/search.jpg") no-repeat right center;
+    background-color:white;
+    padding-right: 25px;
+}
+.top_right{
+    /*border:1px solid red;*/
+      float:left;
+      width:90px;
+    height:25px;
+padding-top:45px;
+    padding-left:90px;
+}
+.top_right a{
+    font-family:微软雅黑;
+    text-decoration:none;
+}
+.top_right a:link,.top_right a:visited{
+    color:#8e8e8e;
+}
+.top_right a:hover,.top_right a:active{
+    color:red;
+}
+.ad{
+    border-radius:5px;
+    margin-top:5px;
+    width:900px;
+    height:400px;
+}
+
+.head1{
+    /*border:1px solid red;*/
+    margin-top:30px;
+    width:100%;
+    text-align: center;
+    height:30px;
+    font-family: 微软雅黑;
+  padding:0 calc(50% - 141px);
+}
+
+.head1 li{
+    list-style-type: none;
+    float:left;
+
+}
+.display1{
+    margin-top:20px;
+    width:100%;
+    height:83px;
+}
+.display1 li{
+    padding:0;
+    margin-top:0;
+    float:left;
+    width:440px;
+    height:83px;
+    margin-right:20px;
+    list-style-type: none;
+}
+.display1 img{
+width:440px;
+    cursor: pointer;
+    transition: all 0.3s;
+    overflow: hidden;
+
+}
+.display1 img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.display1 li:last-child{
+    margin-right:0px;
+}
+img:not(.wrap2){
+    cursor: pointer;
+    transition: all 0.3s;
+}
+ img:hover:not(.wrap2){
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.course1 img{
+    width: 168px;
+}
+.course1{
+    width:100%;
+    height:180px;
+    margin-top:30px;
+}
+.course1_div_photo{
+    float:left;
+    width:168px;
+    height:190px;
+    margin-right:15px;
+}
+.course1_div_photo a:link,.course1_div_photo a:visited{
+
+    color:black;
+    text-decoration:none;
+}
+.course_div_photo_last{
+    width:168px;
+    height:190px;
+    margin-right:0px;
+}
+.course1_div span{
+    float:left;
+    font-size:14px;
+    margin-top:5px;
+}
+.course1_div p{
+    color:#8e8e8e;
+    font-size:20px;
+    margin-top:5px;
+}
+.course_div_text{
+    margin-top:5px;
+    color:#93999F;
+    font-size:12px;
+}
+.course1 h3{
+    font-weight: 400;
+    font-size:13px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+.course_div_text span{
+    margin-left:5px;
+    margin-right:5px;
+}
+.wrap5{
+    width:100%;
+    height:110px;
+    background: -webkit-linear-gradient(top, rgba(171,211,238,1) 0%,rgba(235,241,246,1) 100%);
+}
+.footer{
+    width:900px;
+    margin:0 auto;
+    height:110px;
+}
+.footer_left{
+    width:700px;
+    height:110px;
+}
+.footer_left li{
+    float:left;
+    width:70px;
+    list-style-type: none;
+}
+.footer_left a{
+   font-size:12px;
+    text-decoration:none;
+    line-height:60px;
+}
+.footer_left a:link,.footer_left a:visited{
+   color:#93999F;
+}
+.footer_left a:hover,.footer_left a:active{
+    color:black;
+}
+.xsrm{
+    float:left;
+    width:150px;
+    height:30px;
+    line-height:30px;
+}

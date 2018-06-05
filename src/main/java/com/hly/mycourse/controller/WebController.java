@@ -14,19 +14,28 @@ import javax.servlet.http.HttpSession;
  */
 @Controller
 @RequestMapping("/")
-public class ChatController {
+public class WebController {
+    static boolean login = false;
 
     @RequestMapping("/chat")
-    public ModelAndView chat(){
+    public ModelAndView chat(HttpSession httpSession){
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("chat");
-        return mv;
+        if(login==false){
+            httpSession.setAttribute("errorLogin","errorLogin");
+            mv.setViewName("login");
+            return  mv;
+        }
+        else {
+            httpSession.setAttribute("errorLogin","Login");
+            mv.setViewName("chat");
+            return mv;
+        }
     }
 
     @RequestMapping(value = "/")
-    public ModelAndView login(){
+    public ModelAndView HOME(){
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("login");
+        mv.setViewName("HOME");
         return mv;
     }
 
@@ -36,7 +45,8 @@ public class ChatController {
         if(userId.equals("123")&&userPws.equals("123")||userId.equals("12")&&userPws.equals("12")||userId.equals("1")&&userPws.equals("1")){
             httpSession.setAttribute("userId",userId);
             httpSession.setAttribute("error","true");
-            mv.setViewName("chat");
+            mv.setViewName("HOME");
+            login = true;
             return mv;
         }
         httpSession.setAttribute("error","error");
@@ -44,4 +54,31 @@ public class ChatController {
         return mv;
     }
 
+    @RequestMapping("/HOME")
+    public ModelAndView HOME2(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("HOME");
+        return mv;
+    }
+
+    @RequestMapping("/wjdc")
+    public ModelAndView wjdc(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("wjdc");
+        return mv;
+    }
+
+    @RequestMapping("/actualCombat")
+    public ModelAndView video(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("actualCombat");
+        return mv;
+    }
+
+    @RequestMapping("/login")
+    public ModelAndView login(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("login");
+        return mv;
+    }
 }

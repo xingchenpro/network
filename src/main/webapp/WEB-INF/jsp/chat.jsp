@@ -93,21 +93,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="a_friend">
-                                <div class="head_portrait">
-                                    <div class="head_text">
-                                        黄
-                                    </div>
-                                </div>
-                                <div class="friend">
 
-                                    <div class="name">天狼星</div>
-                                    <div class="this_time">4-12-15:10</div>
-
-                                </div>
-                            </div>
-                        </li>
                     </ul>
                 </div>
 

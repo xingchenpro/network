@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+.wrap{
+    width:100%;
+    background: url("../web/images/112.jpg") repeat-y ;
+    background-size: 100%;
+}
+.wrap1{
+    width:100%;
+    height:70px;
+    background-color:#333333;
+    background: url("../web/images/112.jpg") repeat-y  ;
+    background-size: 100%;
+}
+.top_left{
+    float:left;
+    height:70px;
+    width:180px;
+}
+.nav{
+    width:900px;
+    height:70px;
+    float:left;
+}
+.nav_left{
+    float:left;
+}
+.nav_left li{
+    height:70px;
+    width:110px;
+    float:left;
+    list-style-type: none;
+    text-align:center;
+    line-height:70px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.nav_left a:link,.nav_left a:visited{
+    text-decoration:none;
+    color:white;
+}
+.nav_left a:hover,.nav_left a:active{
+    text-decoration:none;
+    color:yellow;
+}
+.nav_right{
+    width:200px;
+    float:left;
+}
+.nav_right input[type="text"]{
+    height:20px;
+    margin-top:27px;
+    float:left;
+    width:150px;
+    background:url("../web/images/search.jpg") no-repeat right center;
+    background-color:white;
+    padding-right: 25px;
+}
+.top_right{
+    /*border:1px solid red;*/
+    float:left;
+    width:90px;
+    height:25px;
+    padding-top:45px;
+    padding-left:90px;
+}
+.top_right a{
+    font-family:微软雅黑;
+    text-decoration:none;
+}
+.top_right a:link,.top_right a:visited{
+    color:#8e8e8e;
+}
+.top_right a:hover,.top_right a:active{
+    color:red;
+}
+.main{
+    width:900px;
+    margin:0 auto;
+    font-family:微软雅黑;
+}
+.main_top{
+    width:100%;
+    font-size:30px;
+    height:50px;
+    text-align: center;
+    line-height:50px;
+    color:white;
+    margin-bottom: 15px;
+}
+.main_middle_title{
+    width:100%;
+    font-size: 18px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+}
+.main_middle_sel{
+margin-bottom:30px;
+
+}
+.main_middle_sel div{
+    display: inline-block;
+    margin-right:100px;
+}
+.main_bottom{
+    width:100%;
+    height:50px;
+    position:relative;
+}
+.main_bottom div{
+    position:absolute;
+    left:575px;
+    top:10px;
+}
+.footer{
+    width:900px;
+    margin:0 auto;
+    height:110px;
+}
+.footer_left{
+    width:700px;
+    height:110px;
+}
+.footer_left li{
+    float:left;
+    width:70px;
+    list-style-type: none;
+}
+.footer_left a{
+    font-size:12px;
+    text-decoration:none;
+    line-height:60px;
+}
+.footer_left a:link,.footer_left a:visited{
+    color:white;
+}
+.footer_left a:hover,.footer_left a:active{
+    color:black;
+}
