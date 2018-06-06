@@ -26,9 +26,9 @@
                     <li><a href="<%=path%>/HOME"target="_blank">首页</a></li>
                     <li><a href="<%=path%>/actualCombat">精品课程</a></li>
                     <li><a href="<%=path%>/chat"target="_blank">在线交流</a></li>
-                    <li><a href="<%=path%>/wjdc" target="_blank">问卷调查</a></li>
-                    <li><a href="#">资料上传</a></li>
-                    <li><a href="#">资料下载</a></li>
+                    <li><a href="<%=path%>/wjdc" target="_blank">在线考试</a></li>
+                    <li><a href="<%=path%>/file/upload">资料上传</a></li>
+                    <li><a href="<%=path%>/file/download">资料下载</a></li>
                 </ul>
             </div>
             <div class="nav_right">

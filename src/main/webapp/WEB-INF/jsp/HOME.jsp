@@ -27,9 +27,9 @@
                         <li><a href="<%=path%>/HOME">首页</a></li>
                         <li><a href="<%=path%>/actualCombat" target="_blank">精品课程</a></li>
                         <li><a href="<%=path%>/chat" target="_blank">在线交流</a></li>
-                        <li><a href="<%=path%>/wjdc" target="_blank">问卷调查</a></li>
-                        <li><a href="#">资料上传</a></li>
-                        <li><a href="#">资料下载</a></li>
+                        <li><a href="<%=path%>/wjdc" target="_blank">在线考试</a></li>
+                        <li><a href="<%=path%>/file/upload">资料上传</a></li>
+                        <li><a href="<%=path%>/file/download">资料下载</a></li>
                     </ul>
                 </div>
                 <div class="nav_right">
@@ -79,7 +79,7 @@
                 <div class="course1_div_photo">
                     <div>
                         <a href="<%=path%>/static/video/movie.ogg"><img src="<%=path%>/static/web/images/xs23.png">
-                            <img src="<%=path%>/static/web/images/xs21.png">
+
                             <h3>前端小白入门</h3>
                         </a></div>
                     <div class="course_div_text">
@@ -90,7 +90,7 @@
                 <div class="course1_div_photo">
                     <div>
                         <a href="<%=path%>/static/video/movie.ogg"><img src="<%=path%>/static/web/images/xs23.png">
-                            <img src="<%=path%>/static/web/images/xs22.png">
+
                             <h3>java零基础入门</h3>
                         </a>
                     </div>

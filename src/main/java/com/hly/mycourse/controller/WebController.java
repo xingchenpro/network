@@ -1,5 +1,8 @@
 package com.hly.mycourse.controller;
 
+import com.hly.mycourse.pojo.User;
+import com.hly.mycourse.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,6 +19,8 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/")
 public class WebController {
     static boolean login = false;
+    @Autowired
+    UserService userService;
 
     @RequestMapping("/chat")
     public ModelAndView chat(HttpSession httpSession){
@@ -42,7 +47,8 @@ public class WebController {
     @RequestMapping(value = "/successLogin")
     public ModelAndView successLogin(@RequestParam("username") String userId, @RequestParam("password") String userPws, HttpSession httpSession){
         ModelAndView mv = new ModelAndView();
-        if(userId.equals("123")&&userPws.equals("123")||userId.equals("12")&&userPws.equals("12")||userId.equals("1")&&userPws.equals("1")){
+        User user = userService.selectUserById(userId);
+        if(userId.equals(user.getUserId())&&userPws.equals(user.getPassword())){
             httpSession.setAttribute("userId",userId);
             httpSession.setAttribute("error","true");
             mv.setViewName("HOME");
@@ -60,6 +66,8 @@ public class WebController {
         mv.setViewName("HOME");
         return mv;
     }
+
+
 
     @RequestMapping("/wjdc")
     public ModelAndView wjdc(){

@@ -8,6 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
@@ -27,12 +28,19 @@ public class FileUploadController {
         return mv;
     }
 
-    @RequestMapping(value = "/uploadAfter",method = RequestMethod.POST)
-    public ModelAndView uploadAfter(@Param("file")MultipartFile file){
+    @RequestMapping("/download")
+    public ModelAndView download(){
         ModelAndView mv = new ModelAndView();
-        mv.setView(new MappingJackson2JsonView());
+        mv.setViewName("download");
+        return mv;
+    }
+
+    @RequestMapping(value = "/uploadAfter",method = RequestMethod.POST)
+    public ModelAndView uploadAfter(@Param("file")MultipartFile file, HttpSession httpSession){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("upload");
         //根目录
-        String rootPath = "D:/MidnightSunFile/";
+        String rootPath = "C:/Users/hly/Desktop/upload";
         //文件完整名称，.jpg等
         String fileName = file.getOriginalFilename();
         //文件名，不包括后缀
@@ -66,9 +74,11 @@ public class FileUploadController {
             file.transferTo(newFile);
             mv.addObject("success",true);
             mv.addObject("msg","上传成功");
+            httpSession.setAttribute("upload","yes");
         } catch (IOException e) {
             mv.addObject("success",false);
             mv.addObject("msg","上传失败");
+            httpSession.setAttribute("upload","no");
             e.printStackTrace();
         }
         return mv;

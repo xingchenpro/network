@@ -11,30 +11,31 @@
 </head>
 <body>
 <div class="wrap">
-    <div class="wrap1">
-        <div class="top_left"></div>
-        <div class="nav">
-            <div class="nav_left">
-                <ul>
-                    <li><a href="<%=path%>/HOME">首页</a></li>
-                    <li><a href="<%=path%>/actualCombat">精品课程</a></li>
-                    <li><a href="<%=path%>/chat">在线交流</a></li>
-                    <li><a href="<%=path%>/wjdc" >问卷调查</a></li>
-                    <li><a href="#">资料上传</a></li>
-                    <li><a href="#">资料下载</a></li>
-                </ul>
+    <div class="wrap1_2">
+        <div class="wrap1">
+            <div class="top_left"></div>
+            <div class="nav">
+                <div class="nav_left">
+                    <ul>
+                        <li><a href="<%=path%>/HOME">首页</a></li>
+                        <li><a href="<%=path%>/actualCombat" target="_blank">精品课程</a></li>
+                        <li><a href="<%=path%>/chat" target="_blank">在线交流</a></li>
+                        <li><a href="<%=path%>/wjdc" target="_blank">在线考试</a></li>
+                        <li><a href="<%=path%>/file/upload">资料上传</a></li>
+                        <li><a href="<%=path%>/file/download">资料下载</a></li>
+                    </ul>
+                </div>
+                <div class="nav_right">
+                    <form>
+                        <input type="text">
+                    </form>
+                </div>
+            </div><!--nav结束-->
+            <div class="top_right" id="login_is">
+                <a href="<%=path%>/login">登录</a>
+                <a href="#">注册</a>
             </div>
-            <div class="nav_right">
-                <form>
-                    <input type="text">
-                </form>
-            </div>
-        </div><!--nav结束-->
-        <div class="top_right">
-            <a href="#">登录</a>
-            <a href="#">注册</a>
-        </div>
-    </div>
+        </div><!--wrap1结束-->
     <!--wrap1结束-->
     <div class="main">
         <div class="main_top">
