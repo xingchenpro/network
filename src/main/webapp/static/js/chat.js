@@ -3,6 +3,7 @@ var websocket = null;
 if ('WebSocket' in window) {
     //部署到服务器注意路径
     //ws://123.56.219.53:80/MyCourse/websocket
+    //ws://localhost:8080/websocket
     websocket = new WebSocket("ws://localhost:8080/websocket");
 }
 else {
@@ -74,14 +75,18 @@ function setMSGInHtml(toHtml) {
     else
         num = 1
 //http://123.56.219.53/MyCourse/static/img/img_26.jpg
-    chat_ul.innerHTML += '<li><img src="../../static/img/img_26.jpg"><span>' + message.message.content + '</span>';
-    now++;
+    //../../static/img/img_26.jpg
+
+
     if (num == 0) {
+        chat_ul.innerHTML += '<li><img src="../../static/img/img_26.jpg"><span>' + message.message.content + '</span>';
+        now++;
         chat_span[now].className = 'spanright';
         chat_img[now].className = 'imgright';
-
     }
     else {
+        chat_ul.innerHTML += '<li><img src="../../static/img/img_26.jpg"><span>' + message.message.content + '</span>';
+        now++;
         chat_span[now].className = 'spanleft';
         chat_img[now].className = 'imgleft';
 

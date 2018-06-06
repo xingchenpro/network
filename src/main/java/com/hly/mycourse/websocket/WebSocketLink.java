@@ -94,7 +94,6 @@ public class WebSocketLink {
         }
     }
 
-    //??应该是发送到远程的客户端
     //getAsyncRemote()和getBasicRemote()确实是异步与同步的区别
     public void sendMessage(String message) throws IOException {
         this.session.getBasicRemote().sendText(message);

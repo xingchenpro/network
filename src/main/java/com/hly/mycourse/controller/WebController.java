@@ -48,7 +48,7 @@ public class WebController {
     public ModelAndView successLogin(@RequestParam("username") String userId, @RequestParam("password") String userPws, HttpSession httpSession){
         ModelAndView mv = new ModelAndView();
         User user = userService.selectUserById(userId);
-        if(userId.equals(user.getUserId())&&userPws.equals(user.getPassword())){
+        if(!userId.equals("")&&userId.equals(user.getUserId())&&userPws.equals(user.getPassword())){
             httpSession.setAttribute("userId",userId);
             httpSession.setAttribute("error","true");
             mv.setViewName("HOME");

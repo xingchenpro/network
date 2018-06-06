@@ -181,7 +181,6 @@
     </style>
 </head>
 <body>
-<div class="wrap">
     <div class="wrap1_2">
         <div class="wrap1">
             <div class="top_left"></div>
@@ -207,11 +206,7 @@
                 <a href="#">注册</a>
             </div>
         </div><!--wrap1结束-->
-    <div class="top_right">
-        <a href="#">登录</a>
-        <a href="#">注册</a>
-    </div>
-</div><!--wrap1结束-->
+    </div><!--wrap1_2结束-->
 <div class="file-box">
     <form action="<%=path%>/file/uploadAfter" method="post" enctype="multipart/form-data">
         <input type='text' name='textfield' id='textfield' value="请选择上传文件"/>
@@ -255,6 +250,7 @@
 <div class="plate1">
     <pre>提交截止日期:    2018.6.1————2018.6.30</pre>
 </div>
+
 <script type="text/javascript">
 
 
