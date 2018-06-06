@@ -108,7 +108,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_21.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_21.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -129,7 +129,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_22.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_22.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -150,7 +150,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_23.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_23.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -171,7 +171,7 @@
             <li class="not_margin_right">
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_24.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_24.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -192,7 +192,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_25.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_25.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -213,7 +213,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_26.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_26.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -234,7 +234,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_27.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_27.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -255,7 +255,7 @@
             <li class="not_margin_right">
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_28.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_28.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -276,7 +276,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_29.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_29.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -297,7 +297,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_30.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_30.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -317,7 +317,7 @@
             <li>
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_27.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_27.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 
@@ -338,7 +338,7 @@
             <li class="not_margin_right">
                 <div class="single_video">
                     <figure>
-                        <a href="#"><img src="<%=path%>/static/img/img_25.jpg"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/img/img_25.jpg"></a>
                     </figure>
                     <div><a class="skill_video_title" href="#" title="SSM框架最详细分析与实战">SSM框架最详细分析与实战</a></div>
 

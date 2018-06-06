@@ -78,7 +78,7 @@
             <div class="course1">
                 <div class="course1_div_photo">
                     <div>
-                        <a href="<%=path%>/static/video/movie.ogg"><img src="<%=path%>/static/web/images/xs23.png">
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/web/images/xs23.png">
 
                             <h3>前端小白入门</h3>
                         </a></div>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="course1_div_photo">
                     <div>
-                        <a href="<%=path%>/static/video/movie.ogg"><img src="<%=path%>/static/web/images/xs23.png">
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/web/images/xs23.png">
 
                             <h3>java零基础入门</h3>
                         </a>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="course1_div_photo">
                     <div>
-                        <a href="<%=path%>/static/video/movie.ogg"><img src="<%=path%>/static/web/images/xs23.png"></a>
+                        <a href="<%=path%>/static/video/java.mp4"><img src="<%=path%>/static/web/images/xs23.png"></a>
                     </div>
                     <h3>spark streaming实时流处理项目</h3>
                     <div class="course_div_text">
