@@ -9,6 +9,106 @@ hr {
     width: 1150px;
     margin: 10px 152px;
 }
+
+.top {
+    width: 1520px;
+    height: 140px;
+    background-color: #2d3236;
+
+}
+
+.top_left {
+    float: left;
+}
+
+.top_title {
+    width: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    line-height: 140px;
+    margin-left: 155px;
+    /*border: 1px solid white;*/
+}
+
+.top_right {
+    /*position: relative;*/
+    width: 550px;
+    height: 100%;
+    /*height:80px ;*/
+    float: right;
+    /*border: 1px solid yellow;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.top_search {
+    width: 550px;
+    height: 53px;
+    /*border: 1px solid white;*/
+    /*line-height: 203px;*/
+    margin-top: 37px;
+}
+
+.top_search img {
+    float: left; /*相对于父类容器左浮动*/
+    height: 50px;
+    border-radius: 0 8px 8px 0;
+
+}
+
+.top_search form input[type="text"] {
+    float: left;
+    font-size: 20px;
+    width: 440px;
+    height: 50px;
+    border-radius: 8px 0px 0px 8px;
+    border-style: none;
+    outline: none;
+    text-indent: 15px;
+    /*line-height: 203px;*/
+}
+
+/*热搜*/
+.top_search_nav {
+    width: 1180px;
+    height: auto;
+}
+
+.top_search_nav ul {
+
+}
+
+.top_search_nav ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.top_search_nav ul li a:hover {
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.top_search_nav ul li a:active {
+    color: #fdfe2e;
+    text-decoration: none;
+}
+
+.top_search_nav ul li {
+    list-style-type: none;
+    float: left;
+    font-size: 12px;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.top_search_nav ul li:last-child {
+    margin-right: 0px;
+}
+
 /*技术盒子*/
 .skill_nav {
     margin-bottom: 20px;
@@ -176,7 +276,7 @@ hr {
 
 .describe {
     font-size: 11px;
-    color: #F2FBFE;
+    color: #66727b;
     text-indent: 2em;
     text-align: left;
 }
