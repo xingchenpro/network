@@ -1,4 +1,4 @@
-package com.hly.websocketChat.websocket;
+package com.hly.socketChat.websocket;
 
 
 import com.alibaba.fastjson.JSON;

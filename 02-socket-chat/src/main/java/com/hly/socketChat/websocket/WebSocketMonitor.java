@@ -1,4 +1,4 @@
-package com.hly.websocketChat.websocket;
+package com.hly.socketChat.websocket;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
